@@ -1,0 +1,23 @@
+{
+    "category_section": {
+       "cards": [
+          {
+             "room_img": "./image/room1.jpg",
+             "hotel_name": "Redison Blue",
+             "room_available": "3"
+          },
+          {
+             "room_img": "./image/room2.jpg",
+             "hotel_name": "Taj Mehal",
+             "room_available": "1"
+          },
+          {
+             "room_img": "./image/room3.jpg",
+             "hotel_name": "Bay of Bengal",
+             "room_available": "2"
+          }
+          
+          
+       ]
+    }
+ }
