@@ -1,9 +1,4 @@
-.background{
-    
-    margin: 50px;
-    height: 300px;
-    width: 800px;
-}
+
 
 .background-details{
     display: flex;
@@ -31,4 +26,18 @@
 .catagories{
    display: flex;
    gap: 25px;
+   position: relative;
+   left: 60px;
+}
+
+.background{
+    padding: 30px;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    right: 100px;
+}
+.facility{
+    position: relative;
+    left: 30px;
 }

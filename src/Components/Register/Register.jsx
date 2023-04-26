@@ -44,7 +44,7 @@ const Register = () => {
             console.log(loggedUer);
             setError('');
             event.target.reset();
-            setSuccess('User has been created successfully')
+            setSuccess('Welcome to grand Hotel')
             sendVerificationEmail(result.user);
             updateUserData(result.user,name)
           })

@@ -1,17 +1,11 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
-
+import Marquee from "react-fast-marquee";
 const Header = () => {
 
-//     const {user, logOut}=useContext(AuthContext);
-//     console.log(user);
 
-//    const handleLogout=()=>{
-//        logOut()
-//        .then(result=>{ })
-//        .catch(error=>console.error(error));
-//    }
+
 
 
 
@@ -24,13 +18,12 @@ const Header = () => {
         <Link to="/">Home</Link>
           <Link to="/login">Login</Link>
           <Link to="/register">Register</Link>
-
-          {/* {
-                user && <span className='text-white'>Welcome:{user.email}<button onClick={handleLogout}> Log out</button></span>
-                } */}
+          
+          <Marquee className='text-danger' speed={100}>
+            
+            Welcome To Shivaji grand hotel
+         </Marquee>
         </div>
-
-       
         </nav>
     );
 };

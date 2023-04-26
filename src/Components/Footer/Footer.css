@@ -1,0 +1,24 @@
+.foot{
+    background-color: black;
+    margin-top: 60px;
+    height: 300px;
+}
+.foot-text{
+    display: flex;
+    position: relative;
+    left: 400px;
+    gap: 30px;
+    top:60px;
+    text-align: center;
+}
+.text{
+    color:white;
+}
+.icon-all{
+    margin: 80px;
+    display: flex;
+    position: relative;
+    height: 60px;
+    left: 350px;
+    gap: 40px;
+}
