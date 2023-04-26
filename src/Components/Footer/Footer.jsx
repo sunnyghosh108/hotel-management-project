@@ -27,7 +27,7 @@ const Footer = () => {
          </div>
          </div>
              
-            <h5 className='text-center font-small text-white '>Copyright © 2023 - All right reserved by Luxurious Hotel Mangement</h5>
+            <h5 className='text-center font-small text-white '> Copyright ©2023 - All right reserved by Shivaji Grand Hotel </h5>
         </div>
         
 
